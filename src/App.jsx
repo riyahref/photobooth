@@ -1,13 +1,7 @@
-import { VibeBoothProvider } from './context/VibeBoothContext';
-import VibeBoothApp from './components/VibeBoothApp';
-import './index.css';
-
-function App() {
+export default function App() {
   return (
-    <VibeBoothProvider>
-      <VibeBoothApp />
-    </VibeBoothProvider>
+    <div style={{ padding: "40px", fontSize: "28px" }}>
+      🚀 GitHub Pages is working
+    </div>
   );
 }
-
-export default App;
