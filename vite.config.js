@@ -4,16 +4,19 @@ import path from "path";
 
 export default defineConfig({
   base: "./",
-  plugins: [react()],
   server: {
     host: "::",
     port: 8080,
   },
- 
+  plugins: [react()],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
+  },
+  build: {
+    outDir: "dist",
+    assetsDir: "assets",
   },
   optimizeDeps: {
     exclude: ["@mediapipe/face_mesh", "@mediapipe/camera_utils"],
