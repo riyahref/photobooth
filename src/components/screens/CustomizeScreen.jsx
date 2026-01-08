@@ -1,3 +1,4 @@
+import React from 'react';
 import { useVibeBooth } from '../../context/VibeBoothContext';
 import { STRIP_COLORS, BACKGROUND_COLORS } from '../../types/vibebooth';
 

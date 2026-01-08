@@ -1,4 +1,4 @@
-import { useRef, useEffect, useState, useCallback } from 'react';
+import React, { useRef, useEffect, useState, useCallback} from 'react';
 import { useVibeBooth } from '../../context/VibeBoothContext';
 import * as FaceMeshModule from '@mediapipe/face_mesh';
 

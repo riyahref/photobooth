@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { useVibeBooth } from '../../context/VibeBoothContext';
 import { VIBE_COLORS } from '../../types/vibebooth';
 import { applyFilter, applyVibeOverlay } from '../../utils/filters';

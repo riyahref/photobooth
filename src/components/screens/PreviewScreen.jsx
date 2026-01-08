@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useVibeBooth } from '../../context/VibeBoothContext';
 import { createPhotoStrip } from '../../utils/filters';
 import { VIBE_COLORS } from '../../types/vibebooth';
